@@ -3,11 +3,15 @@ body {
   font-family: serif;
 }
 h1, {
+  font-size: 40px;
   padding: 2px ;
+}
+h2, {
+  font-size: 30px;
 }
 p {
   padding: 2px;
-  font-size: 40px;
+  font-size: 30px;
 }
 a {
   font-size: 40px;
