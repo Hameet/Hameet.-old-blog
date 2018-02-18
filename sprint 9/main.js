@@ -1,6 +1,6 @@
 document.onclick = start;
 
-var colors = ['#D5F05A', '#F42804', '#40F933', '#2349EF','#CA23EF','#23EFDB','#F3396B']
+var colors = ['FF0028','#FF0028','#780B74','#FFFF00','#00FF00','#00FFFF','#EE487B', '#40F933', '#FF00A8','#FF0028','#FFFF00','#EA9999']
 
 function animateCircles () {
     var circle = document.createElement("div");
@@ -27,9 +27,9 @@ function animateCircles () {
 function play(){
     var audio = document.getElementById("audio");
     audio.play();
-    }
+}
 
 function start (){
-        play();
-        animateCircles();
-    }
+    play();
+    animateCircles();
+}
