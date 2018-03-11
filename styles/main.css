@@ -1,11 +1,59 @@
 html {
     padding: 100px; 
     height: 100%;
+    background-image: -webkit-image-set();
     background-size: cover;
     background-repeat: no-repeat;
     background: center fixed;
-    background-color: rgba(228, 241, 50, 0.555);
     }
+
+
+.header {
+    
+    position: align-self: left: ;
+    display: -webkit-inline-box;
+    -webkit-box-direction: right: ;
+}
+
+
+
+.sqs-block-content {
+    align-content: center;
+    font-family: "Open Sans";
+    font-size: 13px;
+    line-height: 1.6em;
+    letter-spacing: 0px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    padding-top: 200px;
+    padding-left: 200px;
+    display: block;
+}
+
+.text {
+    font-size: 25px;
+    font-family: Courier New, Courier, monospace;
+    text-decoration-color: #db1f5e;
+}
+
+.image {
+    image-orientation: from-image;
+    position: absolute;
+}
+
+
+a:link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #db1f5e;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fdd0d0;
+}
+
 
 h1 {
     color: red;
@@ -13,36 +61,56 @@ h1 {
     text-align: center;
     font-size: 50px;
     padding-top: 40px;
+    display: block;
 }
 
 h2 {
     text-align: center;
     font-size: 40px; 
-    padding-top: 20px;   
+    padding-top: 20px; 
+    padding-left: 100px;  
+    
 }
 
 p {
     font-size: 30px;
     text-align: center;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
 
-h2.post a{
+p.intro {
+    text-align: left;
+    text-decoration: none;
+}
+
+h2.text-left {
+text-align: left;
+padding-left: 0px;
+}
+
+h2.text-left a{
 
     color: #db1f5e;;
-    text-align: center;
+    text-align: left;
+    padding-left: 0px;
     font-weight: bold;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 35px;
     text-decoration: none;
-
-}
+    font-family: bitter,georgia,serif;
+    letter-spacing: 0.1em;  
+    }
 
 .row {
    padding: 20px;
-   padding-left: 60px;
-   padding-right: 30px; 
+      
 }
+
 
 button {
     font-size: 30px;
@@ -52,7 +120,77 @@ button {
     background: linear-gradient(rgb(26, 233, 136),#0c0)
     }
 
+
 a:hover {
     background: linear-gradient(rgba(226, 147, 202, 0.705),rgba(193, 127, 218, 0.555));
 }
 
+.navbar{
+    background-image: linear-gradient(139deg, #00C4CC 0%, #7D2AE8 100%);
+    padding: 1% 0;
+    font-size: 1.2em;    
+}
+
+
+h2.circle-text a {
+    display: table-cell;
+    height: 250px; /*change this and the width
+    for the size of your initial circle*/
+    width: 250px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    /*make it pretty*/
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-family: bitter,georgia,serif;
+    letter-spacing: 0.1em;
+    background: #ff4796;
+    color: rgba(29, 38, 39, 0.767);
+    font: 35px "bitter,georgia,serif"; /*change this
+    for font-size and font-family*/
+    }
+
+.animation {
+    padding-left: 100px;
+    display: block;
+    text-align: center;
+    width: 990px;
+    }
+
+.calculator {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: justify;
+    width: 800px;
+    }
+
+.minesweeper {
+    padding-top: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    width: 486px;
+    }
+
+footer {
+    display:block;
+    position:absolute;
+    left:10px;
+    right:10px;
+    bottom:0;
+    background-image: linear-gradient(169deg, #00C4CC 0%, rgb(29, 195, 168) 100%) ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: #db1f5e;
+    height: 36px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
